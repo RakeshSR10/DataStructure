@@ -61,6 +61,19 @@ public class MyLinkedList {
         return tempNode;
     }
 
+    //UC7 search node in linkedList
+    public INode search(INode key){
+        INode tempNode = head;
+        INode searchNode = null;
+        while (tempNode != null && tempNode.getNext() != null){
+            if(tempNode.getKey().equals(key)){
+                searchNode = tempNode;
+            }
+            tempNode = tempNode.getNext();
+        }
+        return searchNode;
+    }
+
     //print all the nodes
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
