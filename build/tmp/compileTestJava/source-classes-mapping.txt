@@ -1,2 +1,4 @@
 com/linkedList/MyNodeTest.java
  com.linkedList.MyNodeTest
+com/linkedList/MyLinkedListTest.java
+ com.linkedList.MyLinkedListTest
