@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.linkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T04:03:18" hostname="RAKESH" time="0.026">
+<testsuite name="com.linkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-02T04:14:21" hostname="RAKESH" time="0.03">
   <properties/>
-  <testcase name="given3NumbersWhenAddedToLinkedListShouldBeAddedToTop()" classname="com.linkedList.MyLinkedListTest" time="0.026"/>
+  <testcase name="given3NumbersWhenAppendingShouldBeAddedToLast()" classname="com.linkedList.MyLinkedListTest" time="0.03"/>
   <system-out><![CDATA[My Nodes: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
