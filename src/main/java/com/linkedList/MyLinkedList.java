@@ -43,6 +43,13 @@ public class MyLinkedList {
         newNode.setNext(tempNode);
     }
 
+    //UC5 delete() or pop() method
+    public INode pop(MyNode<Integer> myFirstNode){
+        INode tempNode = this.head;
+        this.head = head.getNext();
+        return tempNode;
+    }
+
     //print all the nodes
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
