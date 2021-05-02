@@ -1,7 +1,20 @@
 package com.linkedList;
 
-public class MyNode {
-    public static void main(String[] args) {
-        System.out.println("Welcome to LinkedList program");
+public class MyNode<K> {
+    //UC1 Simple LinkedList
+    private K key;
+    private MyNode next;
+
+    public MyNode(K key){
+        this.key = key;
+        this.next = null;
+    }
+
+    public MyNode getNext() {
+        return next;
+    }
+
+    public void setNext(MyNode next) {
+        this.next = next;
     }
 }
