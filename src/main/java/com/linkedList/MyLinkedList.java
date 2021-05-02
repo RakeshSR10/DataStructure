@@ -36,6 +36,14 @@ public class MyLinkedList {
         }
     }
 
+    //UC4 insert() method
+    public void insert(INode myNode, INode newNode){
+        INode tempNode = myNode.getNext();
+        myNode.setNext(newNode);
+        newNode.setNext(tempNode);
+    }
+
+    //print all the nodes
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempNode = head;
