@@ -20,6 +20,11 @@ public class MyQueue {
         myLinkedList.append(myNode);
     }
 
+    //pop() method to delete 1st element
+    public INode Dequeue() {
+        return myLinkedList.pop();
+    }
+
     //print the Queue
     public void printQueue() {
         myLinkedList.printMyNodes();
