@@ -4,3 +4,5 @@ com/linkedList/MyNode.java
  com.linkedList.MyNode
 com/linkedList/MyLinkedList.java
  com.linkedList.MyLinkedList
+com/stack/MyStack.java
+ com.stack.MyStack
