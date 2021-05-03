@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stack.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-03T01:55:02" hostname="RAKESH" time="0.043">
+<testsuite name="com.stack.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-03T02:01:54" hostname="RAKESH" time="0.035">
   <properties/>
-  <testcase name="given3NumbersWhenAddedToStackShouldHaveLastAddedNode()" classname="com.stack.MyStackTest" time="0.043"/>
-  <system-out><![CDATA[My Nodes: 56->30->70
+  <testcase name="given3NumbersInStackWhenPopedShouldMatchWithLastAddedNode()" classname="com.stack.MyStackTest" time="0.035"/>
+  <system-out><![CDATA[My Nodes: 30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

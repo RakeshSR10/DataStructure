@@ -12,12 +12,16 @@ public class MyStack {
     public void push(INode myNode) {
         myLinkedList.add(myNode);
     }
-    //printStack() method
-    public void printStack() {
-        myLinkedList.printMyNodes();
-    }
     //peek() method
     public INode peek() {
         return myLinkedList.head;
+    }
+    //UC2 pop() element
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+    //printStack() method
+    public void printStack() {
+        myLinkedList.printMyNodes();
     }
 }

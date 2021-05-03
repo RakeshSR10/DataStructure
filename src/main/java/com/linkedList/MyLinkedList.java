@@ -42,7 +42,12 @@ public class MyLinkedList {
         myNode.setNext(newNode);
         newNode.setNext(tempNode);
     }
-
+    //pop
+    public INode pop() {
+        INode tempNode = this.head;
+        this.head = head.getNext();
+        return tempNode;
+    }
     //UC5 delete() or pop() method
     public INode pop(MyNode<Integer> myFirstNode){
         INode tempNode = this.head;
