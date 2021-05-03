@@ -1,6 +1,8 @@
 com/linkedList/MyNodeTest.java
  com.linkedList.MyNodeTest
-com/stack/MyStackTest.java
- com.stack.MyStackTest
 com/linkedList/MyLinkedListTest.java
  com.linkedList.MyLinkedListTest
+com/queue/MyQueueTest.java
+ com.queue.MyQueueTest
+com/stack/MyStackTest.java
+ com.stack.MyStackTest

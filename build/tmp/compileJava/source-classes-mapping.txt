@@ -1,8 +1,10 @@
-com/linkedList/INode.java
- com.linkedList.INode
-com/linkedList/MyNode.java
- com.linkedList.MyNode
 com/linkedList/MyLinkedList.java
  com.linkedList.MyLinkedList
+com/linkedList/MyNode.java
+ com.linkedList.MyNode
+com/queue/MyQueue.java
+ com.queue.MyQueue
 com/stack/MyStack.java
  com.stack.MyStack
+com/linkedList/INode.java
+ com.linkedList.INode
